@@ -1,5 +1,5 @@
 # remote state
-/*
+
 data "terraform_remote_state" "remote_state" {
   backend = "s3"
 
@@ -10,5 +10,5 @@ data "terraform_remote_state" "remote_state" {
   }
 }
 
-*/
+
 #-----------------------------------------------------------------------------------------------------
