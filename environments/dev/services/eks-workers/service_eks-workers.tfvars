@@ -3,7 +3,7 @@
 primary_node_group_settings = {
   name           = "primary-ng"
   desired_size   = 1
-  max_size       = 3
+  max_size       = 4
   min_size       = 1
   instance_types = ["m5.large"]
   capacity_type  = "ON_DEMAND"
