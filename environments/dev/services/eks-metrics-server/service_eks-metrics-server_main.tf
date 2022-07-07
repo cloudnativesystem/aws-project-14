@@ -2,7 +2,7 @@ resource "helm_release" "metrics-server" {
   name       = "metrics-server"
   namespace  = "metrics-server"
   repository = "https://charts.bitnami.com/bitnami"
-  chart      = "metrics-server"
+  chart      = "bitnami/metrics-server"
   version    = "0.6.1"
 }
 
